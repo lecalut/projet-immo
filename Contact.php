@@ -29,7 +29,7 @@ include("BDD.php");
   <ol id="adr">
 <li><p>Immo Lyon <br> 2 Rue Curie <br> 69000 Lyon <br> 04 74 51 85 36</p></li>
 <li><p>Immo Villeurbanne <br> 3 Rue Curie <br> 69100 Villeurbanne <br> 04 78 51 13 74</p></li>
-<li><p>Immo Bron <br> 15 Avenue des champs <br> 69500 Bron <br> 06 85 15 95 74</p></li>
+<li><p>Immo Bron <br> 15 Avenue des champs <br> 69400 Bron <br> 06 85 15 95 74</p></li>
 <li><p>Immo Caluire <br> 15 Avenue des pommiers <br> 69300 Caluire et cuire <br> 04 78 14 85 96</p></li>
 <li><p>Immo Meyzieu <br> 1 Rue des yeux <br> 69330 Meyzieu <br> 06 41 11 25 44</p></li>
   </ol>

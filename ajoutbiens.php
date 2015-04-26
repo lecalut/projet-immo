@@ -44,7 +44,5 @@ include("BDD.php");
      <textarea name="contenu" placeholder="Description du bien"></textarea></br>
      <input type="submit" value="Poster !">
    
-   <?php
-?>
  </form>
 </div>
