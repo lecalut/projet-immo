@@ -357,4 +357,11 @@ ol li{
 	height: 211px;
 	text-align: center;
 	display: table-cell;
+	color: white;
+}
+img{
+	float: left;
+}
+#critere{
+	color: white;
 }
