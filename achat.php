@@ -5,7 +5,7 @@ include("header.php");
 ?>
  <div id="critere">
  	<li><p>Critères</p></li>
- 	<li><p>Type de bien</p>
+ 	<li id="li"><p>Type de bien</p>
  		<p>Type d'achat</p>
  		<p>Superficie</p>
  		<p>Prix</p>
@@ -36,12 +36,11 @@ $req->execute(array(
 
 <p><?php echo $donne['type_vente_bien'];?></p>
 <p><?php echo $donne['date'];?></p>
-<p><?php echo $donne['cp_bien'];?></p>
 <p><?php echo $donne['ville_bien'];?></p>
-<p><?php echo $donne['surface_bien'];?></p>
-<p><?php echo $donne['prix_bien'];?></p>
-<p><?php echo $donne['type_chauff_bien'];?></p>
-<p><?php echo $donne['description_bien'];?></p></div><?php
+<p><?php echo $donne['surface_bien'],"m2";?></p>
+<p><?php echo $donne['prix_bien'],'€';?></p>
+<p>Chauffage : <?php echo $donne['type_chauff_bien'];?></p>
+<p>Description : <?php echo $donne['description_bien'];?></p></div><?php
 
  } 
 ?>
