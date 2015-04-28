@@ -365,3 +365,6 @@ img{
 #critere{
 	color: white;
 }
+#critere li{
+	list-style: none;
+}

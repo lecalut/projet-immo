@@ -4,7 +4,15 @@ include("BDD.php");
 include("header.php");
 ?>
  <div id="critere">
- 	<p>Critères</p>
+ 	<li><p>Critères</p></li>
+ 	<li><p>Type de bien</p>
+ 		<p>Type d'achat</p>
+ 		<p>Superficie</p>
+ 		<p>Prix</p>
+ 		<p>Chauffage</p>
+ 		<p>Ville</p>
+ 		<p>Nombre de piece</p>
+ 	</li>
  </div>
   <a id="Accueil" href="index.php"><i class="fa fa-arrow-circle-left"></i></a>
 
