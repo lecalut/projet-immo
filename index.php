@@ -86,13 +86,6 @@ include("header.php");
   </UL>
 </nav>
 
-<!--
-We will make a slider with stylized thumbnails using CSS3
-The markup is very simple:
-Radio Inputs
-Labels with thumbnails to detect click event
-Main Image
--->
 <div class="slider">
   <input type="radio" name="slide_switch" id="id1"/>
   <label for="id1">
@@ -125,9 +118,6 @@ Main Image
   </label>
   <img src="image/14.jpg"/>
 </div>
-
-<!-- We will use PrefixFree - a script that takes care of CSS3 vendor prefixes
-You can download it from http://leaverou.github.com/prefixfree/ -->
 <script src="http://thecodeplayer.com/uploads/js/prefixfree.js" type="text/javascript"></script>
 
 
