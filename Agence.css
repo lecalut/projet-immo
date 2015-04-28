@@ -1,7 +1,3 @@
-body{
-	background-color: grey;
-
-}
 
 /*BARRE DE NAVIGATION*/
 
@@ -21,7 +17,7 @@ background:#ccc;
 width:300px;
 height:70px;
 margin-bottom: 30px;
-margin-left: 40px;
+margin-top: 250px;
 }
 .link_bg
 {
@@ -42,7 +38,6 @@ position:absolute;
 width:100%;
 z-index:3;
 color:#fff;
-margin-left: 25px;
 }
 .link_title:hover .icon
 {
