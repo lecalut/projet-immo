@@ -80,11 +80,55 @@ include("header.php");
       <a href="deconnexion.php"><span>D&eacuteconnexion employ&eacute</span></a>
       </div>
   </li>
-
-
-
   <?php
     }
   ?>
   </UL>
 </nav>
+
+<!--
+We will make a slider with stylized thumbnails using CSS3
+The markup is very simple:
+Radio Inputs
+Labels with thumbnails to detect click event
+Main Image
+-->
+<div class="slider">
+  <input type="radio" name="slide_switch" id="id1"/>
+  <label for="id1">
+    <img src="image/10.jpg" width="100"/>
+  </label>
+  <img src="image/10.jpg"/>
+  
+  <!--Lets show the second image by default on page load-->
+  <input type="radio" name="slide_switch" id="id2" checked="checked"/>
+  <label for="id2">
+    <img src="image/11.jpg" width="100"/>
+  </label>
+  <img src="image/11.jpg"/>
+  
+  <input type="radio" name="slide_switch" id="id3"/>
+  <label for="id3">
+    <img src="image/12.jpg" width="100"/>
+  </label>
+  <img src="image/12.jpg"/>
+  
+  <input type="radio" name="slide_switch" id="id4"/>
+  <label for="id4">
+    <img src="image/13.jpg" width="100"/>
+  </label>
+  <img src="image/13.jpg"/>
+  
+  <input type="radio" name="slide_switch" id="id5"/>
+  <label for="id5">
+    <img src="image/14.jpg" width="100"/>
+  </label>
+  <img src="image/14.jpg"/>
+</div>
+
+<!-- We will use PrefixFree - a script that takes care of CSS3 vendor prefixes
+You can download it from http://leaverou.github.com/prefixfree/ -->
+<script src="http://thecodeplayer.com/uploads/js/prefixfree.js" type="text/javascript"></script>
+
+
+
