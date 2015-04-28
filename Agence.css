@@ -365,13 +365,22 @@ img{
 }
 #critere{
 	color: white;
+	padding-top: 67px;
 }
 #critere li{
 	list-style: none;
 	border-color: orange;
 	border-style: solid;
 	border-width: 2px;
-	display: flex;
+	text-align: center;
+	margin-left: 508px;
+	width: 842px;
+}
+#li{
+	display:flex;
+}
+#li p{
+	margin-right: 50px;
 }
 
 
