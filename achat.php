@@ -14,57 +14,70 @@ include("header.php");
      </select>
      <input type="submit" value="Envoyer" />
      </p></form></p>
- 		<p>Type d'achat</p>
-  <form method="post" action="traitement_appart.php">
+
+
+ 		<p>Type d'achat
+  <form method="post" action="traitement_appart1.php">
   <p>
      <select name="type_vente_bien" id="sexe">
      	 <option value="Location">Location</option>
            <option value="Vente">Vente</option>
- 		<p>Superficie</p>
+ 		</select>
+     <input type="submit" value="Envoyer" />
+     </p></form></p>
+
+ 		<p>Superficie
   <form method="post" action="traitement_appart.php">
   <p>
-     <select name="type_bien" id="sexe">
-     	 <option value="Appartement">appartement</option>
+     <select name="surface_bien" id="sexe">
+     	 <option value="55">55</option>
+     	 <option value="80">80</option>
+     	 <option value="70">70</option>
+     	 <option value="35">35</option>
+     	 <option value="10">10</option>
+     	 <option value="150">150</option>
+     	 <option value="450">450</option>
+     </select>
+     <input type="submit" value="Envoyer" />
+     </p></form></p>
+
+
+ 		<p>Prix
+  <form method="post" action="traitement_appart.php">
+  <p>
+     <select name="prix_bien" id="sexe">
+     	 <option value="650.000">650.000</option>
            <option value="Maison">maison</option>
      </select>
      <input type="submit" value="Envoyer" />
-     </p></form>
- 		<p>Prix</p>
+     </p></form></p>
+
+
+ 		<p>Chauffage
   <form method="post" action="traitement_appart.php">
   <p>
-     <select name="type_bien" id="sexe">
-     	 <option value="Appartement">appartement</option>
-           <option value="Maison">maison</option>
+     <select name="type_chauff_bien" id="sexe">
+     	 <option value="Electrique">electrique</option>
+           <option value="Fioul">fioul</option>
+           <option value="Bois">bois</option>
+           <option value="solaire">solaire</option>
      </select>
      <input type="submit" value="Envoyer" />
-     </p></form>
- 		<p>Chauffage</p>
+     </p></form></p>
+
+ 		<p>Ville
   <form method="post" action="traitement_appart.php">
   <p>
-     <select name="type_bien" id="sexe">
-     	 <option value="Appartement">appartement</option>
-           <option value="Maison">maison</option>
+     <select name="ville_bien" id="sexe">
+     	 <option value="Lyon">Lyon</option>
+           <option value="Caluire et cuire">Caluire et cuire</option>
+           <option value="Meyzieu">Meyzieu</option>
+           <option value="Bron">Bron</option>
+           <option value="Oulins">Oulins</option>
+           <option value="Vénissieux">Vénissieux</option>
      </select>
      <input type="submit" value="Envoyer" />
-     </p></form>
- 		<p>Ville</p>
-  <form method="post" action="traitement_appart.php">
-  <p>
-     <select name="type_bien" id="sexe">
-     	 <option value="Appartement">appartement</option>
-           <option value="Maison">maison</option>
-     </select>
-     <input type="submit" value="Envoyer" />
-     </p></form>
- 		<p>Nombre de piece</p>
-  <form method="post" action="traitement_appart.php">
-  <p>
-     <select name="type_bien" id="sexe">
-     	 <option value="Appartement">appartement</option>
-           <option value="Maison">maison</option>
-     </select>
-     <input type="submit" value="Envoyer" />
-     </p></form>
+     </p></form></p>
  	</li>
  </div>
   <a id="Accueil" href="index.php"><i class="fa fa-arrow-circle-left"></i></a>
