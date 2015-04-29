@@ -31,7 +31,6 @@ include("BDD.php");
 <li><p>Immo Caluire <br> 15 Avenue des pommiers <br> 69300 Caluire et cuire <br> 04 78 14 85 96</p></li>
 <li><p>Immo Meyzieu <br> 1 Rue des yeux <br> 69330 Meyzieu <br> 06 41 11 25 44</p></li>
   </ol>
-  <a id="Accueil" href="index.php"><i class="fa fa-arrow-circle-left"></i></a>
 
 
 

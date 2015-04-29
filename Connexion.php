@@ -28,7 +28,6 @@ include("BDD.php");
  </form>
       </div> <!-- end login -->
     </div>
-<a id="Accueil" href="index.php"><i class="fa fa-arrow-circle-left"></i></a>
 
   </body>
 </html>

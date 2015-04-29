@@ -205,17 +205,6 @@ p {
 
 }
 
-#Accueil{
-	width: 15px;
-	height: 15px;
-display: block;
-left: 1750px;
-top: 930px;
-font-size: 35px;
-}
-#Accueil:hover{
-	color: #fd9208;
-}
 
 #Contact{ 
 	font-family: "aerolitecponemedium";
@@ -457,3 +446,6 @@ On click the images will be displayed at normal size to complete the effect
 	margin-top: 400px;
 }
 
+input{
+	width: 
+}
