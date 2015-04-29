@@ -5,13 +5,18 @@ include("BDD.php");
 
 <?php
 
+$upload_cible = 'image';
+$nom_image = $_FILES['image']['tmp_name'];
+$nom_definitif = $_FILES['image']['name'];
+$format_image = $_FILES['image']['type'];
+
+
+move_uploaded_file($nom_image, "$upload_cible/$nom_definitif");
 
 
 
 
-
-
-$req = $bdd->prepare('INSERT INTO biens(type_bien, image, date, adr_bien, adr2_bien, cp_bien, ville_bien, surface_bien, prix_bien, type_chauff_bien, description_bien, type_vente_bien) VALUES(:type_bien, :image, :date, :adr_bien, :adr2_bien, :cp_bien, :ville_bien, :surface_bien, prix_bien, type_chauff_bien, description_bien, type_vente_bien)');
+$req = $bdd->prepare('INSERT INTO biens(type_bien, image, date, adr_bien, adr2_bien, cp_bien, ville_bien, surface_bien, prix_bien, type_chauff_bien, description_bien) VALUES(:type_bien, :image, :date, :adr_bien, :adr2_bien, :cp_bien, :ville_bien, :surface_bien, :prix_bien, :type_chauff_bien, :description_bien)');
 $req->execute(array(
 	'type_bien' => $_POST['choix2'],
 	'image' => $nom_definitif,
@@ -24,6 +29,5 @@ $req->execute(array(
 	'prix_bien' => $_POST['prix'],
 	'type_chauff_bien' => $_POST['type'],
 	'description_bien' => $_POST['contenu'],
-	'type_vente_bien' => $_POST['choix1'],
 	));
 ?>
