@@ -6,7 +6,7 @@ ul
 {
 	display: -webkit-inline-box;
 margin:0px;
-padding:0px;
+padding:0px 0px 0px 49px;
 list-style-type:none;
 -webkit-backface-visibility: hidden; backface-visibility: hidden;  
 }
