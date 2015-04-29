@@ -5,16 +5,70 @@ include("header.php");
 ?>
  <div id="critere">
  	<li><p>Critères</p></li>
- 	<li id="li"><p>Type de bien</p>
+ 	<li id="li"><p>Type de bien
+  <form method="post" action="traitement_appart.php">
+  <p>
+     <select name="type_bien" id="sexe">
+     	 <option value="Appartement">appartement</option>
+           <option value="Maison">maison</option>
+     </select>
+     <input type="submit" value="Envoyer" />
+     </p></form></p>
  		<p>Type d'achat</p>
+  <form method="post" action="traitement_appart.php">
+  <p>
+     <select name="type_vente_bien" id="sexe">
+     	 <option value="Location">Location</option>
+           <option value="Vente">Vente</option>
  		<p>Superficie</p>
+  <form method="post" action="traitement_appart.php">
+  <p>
+     <select name="type_bien" id="sexe">
+     	 <option value="Appartement">appartement</option>
+           <option value="Maison">maison</option>
+     </select>
+     <input type="submit" value="Envoyer" />
+     </p></form>
  		<p>Prix</p>
+  <form method="post" action="traitement_appart.php">
+  <p>
+     <select name="type_bien" id="sexe">
+     	 <option value="Appartement">appartement</option>
+           <option value="Maison">maison</option>
+     </select>
+     <input type="submit" value="Envoyer" />
+     </p></form>
  		<p>Chauffage</p>
+  <form method="post" action="traitement_appart.php">
+  <p>
+     <select name="type_bien" id="sexe">
+     	 <option value="Appartement">appartement</option>
+           <option value="Maison">maison</option>
+     </select>
+     <input type="submit" value="Envoyer" />
+     </p></form>
  		<p>Ville</p>
+  <form method="post" action="traitement_appart.php">
+  <p>
+     <select name="type_bien" id="sexe">
+     	 <option value="Appartement">appartement</option>
+           <option value="Maison">maison</option>
+     </select>
+     <input type="submit" value="Envoyer" />
+     </p></form>
  		<p>Nombre de piece</p>
+  <form method="post" action="traitement_appart.php">
+  <p>
+     <select name="type_bien" id="sexe">
+     	 <option value="Appartement">appartement</option>
+           <option value="Maison">maison</option>
+     </select>
+     <input type="submit" value="Envoyer" />
+     </p></form>
  	</li>
  </div>
   <a id="Accueil" href="index.php"><i class="fa fa-arrow-circle-left"></i></a>
+
 
 
 
