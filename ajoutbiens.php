@@ -1,6 +1,7 @@
 <?php
 session_start();
 include("BDD.php");
+include("header.php");
 ?>
 
 
