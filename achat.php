@@ -27,7 +27,7 @@ include("header.php");
      </p></form></p>
 
  		<p>Superficie
-  <form method="post" action="traitement_appart.php">
+  <form method="post" action="traitement_appart2.php">
   <p>
      <select name="surface_bien" id="sexe">
      	 <option value="55">55</option>
@@ -43,7 +43,7 @@ include("header.php");
 
 
  		<p>Prix
-  <form method="post" action="traitement_appart.php">
+  <form method="post" action="traitement_appart3.php">
   <p>
      <select name="prix_bien" id="sexe">
      	 <option value="650.000">650.000</option>
@@ -54,7 +54,7 @@ include("header.php");
 
 
  		<p>Chauffage
-  <form method="post" action="traitement_appart.php">
+  <form method="post" action="traitement_appart4.php">
   <p>
      <select name="type_chauff_bien" id="sexe">
      	 <option value="Electrique">electrique</option>
@@ -66,7 +66,7 @@ include("header.php");
      </p></form></p>
 
  		<p>Ville
-  <form method="post" action="traitement_appart.php">
+  <form method="post" action="traitement_appart5.php">
   <p>
      <select name="ville_bien" id="sexe">
      	 <option value="Lyon">Lyon</option>

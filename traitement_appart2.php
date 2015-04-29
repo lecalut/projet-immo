@@ -1,16 +1,16 @@
 <?php
 include ('header.php');
 include("BDD.php");
- $reponse = $_POST['type_bien'];
+ $reponse = $_POST['surface_bien'];
 
-$req = "SELECT * FROM biens WHERE type_bien = :type_bien";
+$req = "SELECT * FROM biens WHERE surface_bien = :surface_bien";
 $req = $bdd -> prepare($req);
 $req ->execute(array(
-	'type_bien' => $reponse
+	'surface_bien' => $reponse
 	));
 while ($req2=$req->fetch()) {?>
 
-<div id="placement"><img id='image' src="image/<?php echo $donne['image']; ?>" />
+<div id="placement"><img id='image' src="image/<?php echo $req2['image']; ?>" />
 
  <p><?php echo $req2['type_bien'];?></p>
 
