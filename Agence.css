@@ -119,6 +119,7 @@ input {
 	line-height: 1.5em;
 	padding: 0;
 	-webkit-appearance: none;
+	width: 
 }
 
 p {
@@ -452,4 +453,5 @@ input{
 
 .enregistrement_formulaire{
 	margin-top: 200px;
+	margin-left: 50px;
 }
