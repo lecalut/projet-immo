@@ -14,13 +14,13 @@ include("header.php");
 <nav>
   <UL>
    <li class="var_nav">
-      <div class="link_bg"></div>
+      <a href="index.php"><div class="link_bg"></div>
       <div class="link_title">
         <div class=icon> 
           <i class="fa fa-home"></i>
         </div>
-        <a href="index.php"><span>Accueil</span></a>
-      </div>
+        <p>Accueil</p>
+      </div></a>
    </li>
    <li class="var_nav">
       <div class="link_bg"></div>
