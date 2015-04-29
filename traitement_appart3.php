@@ -15,7 +15,10 @@ while ($req2=$req->fetch()) {?>
  <p><?php echo $req2['type_bien'];?></p>
 
 <p><?php echo $req2['type_vente_bien'];?></p>
-<p><?php echo $req2['date'];?></p>
+<p><?php 
+   $datephp = strtotime($req2['date']);
+   $bonnedate = date('d F Y',$datephp);
+   echo($bonnedate);?></p>
 <p><?php echo $req2['ville_bien'];?></p>
 <p><?php echo $req2['surface_bien'],"m2";?></p>
 <p><?php echo $req2['prix_bien'],'€';?></p>

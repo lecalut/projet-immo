@@ -74,7 +74,7 @@ include("header.php");
            <option value="Meyzieu">Meyzieu</option>
            <option value="Bron">Bron</option>
            <option value="Oulins">Oulins</option>
-           <option value="Vénissieux">Vénissieux</option>
+           <option value="Venissieux">Venissieux</option>
      </select>
      <input type="submit" value="Envoyer" />
      </p></form></p>
@@ -102,7 +102,10 @@ $req->execute(array(
  <p><?php echo $donne['type_bien'];?></p>
 
 <p><?php echo $donne['type_vente_bien'];?></p>
-<p><?php echo $donne['date'];?></p>
+<p><?php 
+   $datephp = strtotime($donne['date']);
+   $bonnedate = date('d F Y',$datephp);
+   echo($bonnedate);?></p>
 <p><?php echo $donne['ville_bien'];?></p>
 <p><?php echo $donne['surface_bien'],"m2";?></p>
 <p><?php echo $donne['prix_bien'],'€';?></p>
