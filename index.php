@@ -23,22 +23,22 @@ include("header.php");
       </div></a>
    </li>
    <li class="var_nav">
-      <div class="link_bg"></div>
+      <a href="achat.php"><div class="link_bg"></div>
       <div class="link_title">
         <div class=icon> 
           <i class="fa fa-shopping-cart"></i>
         </div>
-        <a href="achat.php"><span>Achats et Locations</span></a>
-      </div>
+        <p>Achats et Locations</p>
+      </div></a>
    </li>
    <li class="var_nav">
-      <div class="link_bg"></div>
+      <a href="Contact.php"><div class="link_bg"></div>
       <div class="link_title">
         <div class=icon> 
           <i class="fa fa-phone"></i>
         </div>
-        <a href="Contact.php"><span>Nous contacter</span></a>
-      </div>
+        <p>Nous contacter</p>
+      </div></a>
    </li>
 
 
@@ -49,13 +49,13 @@ include("header.php");
     {
   ?>    
   <li class="var_nav">
-      <div class="link_bg"></div>
+     <a href="Connexion.php"><div class="link_bg"></div>
       <div class="link_title">
         <div class=icon> 
           <i class="fa fa-key"></i>
         </div>
-      <a href="Connexion.php"><span>Connexion employ&eacute</span></a>
-      </div>
+      <p>Connexion employ&eacute</p>
+      </div></a>
   </li>
   <?php
     }
@@ -63,22 +63,22 @@ include("header.php");
     {
   ?>      
 <li class="var_nav">
-      <div class="link_bg"></div>
+      <a href="ajoutbiens.php"><div class="link_bg"></div>
       <div class="link_title">
         <div class=icon> 
           <i class="fa fa-cart-plus"></i>
         </div>
-      <a href="ajoutbiens.php"><span>Ajouter un biens</span></a>
-      </div>
+      <p>Ajouter un biens</p>
+      </div></a>
   </li>
   <li class="var_nav">
-      <div class="link_bg"></div>
+      <a href="deconnexion.php"><div class="link_bg"></div>
       <div class="link_title">
         <div class=icon> 
           <i class="fa fa-key"></i>
         </div>
-      <a href="deconnexion.php"><span>D&eacuteconnexion employ&eacute</span></a>
-      </div>
+      <p>D&eacuteconnexion employ&eacute</p>
+      </div></a>
   </li>
   <?php
     }
