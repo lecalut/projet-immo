@@ -10,7 +10,7 @@ $req ->execute(array(
 	));
 while ($req2=$req->fetch()) {?>
 
-<div id="placement"><img id='image' src="image/<?php echo $donne['image']; ?>" />
+<div id="placement"><img id='image' src="image/<?php echo $req2['image']; ?>" />
 
  <p><?php echo $req2['type_bien'];?></p>
 
