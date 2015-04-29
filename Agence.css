@@ -6,7 +6,7 @@ ul
 {
 	display: -webkit-inline-box;
 margin:0px;
-padding:0px 0px 0px 49px;
+padding:0px;
 list-style-type:none;
 -webkit-backface-visibility: hidden; backface-visibility: hidden;  
 }
@@ -17,7 +17,6 @@ background:#ccc;
 width:300px;
 height:70px;
 margin-bottom: 30px;
-margin-top: 250px;
 margin-right:90px; 
 }
 .link_bg
@@ -83,8 +82,6 @@ font-size: 35px;
 a{
 	font-weight: bold;
 display:block;
-position:absolute;
-float:right;
 font-family:Helvetica;
 color:#fff;
 text-decoration:none;
