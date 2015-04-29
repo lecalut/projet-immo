@@ -13,15 +13,7 @@ include("header.php");
 </div>
 <nav>
   <UL>
-   <li class="var_nav">
-      <a href="index.php"><div class="link_bg"></div>
-      <div class="link_title">
-        <div class=icon> 
-          <i class="fa fa-home"></i>
-        </div>
-        <p>Accueil</p>
-      </div></a>
-   </li>
+   
    <li class="var_nav">
       <a href="achat.php"><div class="link_bg"></div>
       <div class="link_title">
@@ -40,7 +32,15 @@ include("header.php");
         <p>Nous contacter</p>
       </div></a>
    </li>
-
+<li class="var_nav">
+      <a href="ajoutbiens.php"><div class="link_bg"></div>
+      <div class="link_title">
+        <div class=icon> 
+          <i class="fa fa-cart-plus"></i>
+        </div>
+      <p>Ajouter un biens</p>
+      </div></a>
+  </li>
 
 
 
@@ -62,15 +62,7 @@ include("header.php");
     if (!empty($_SESSION['pseudo']))
     {
   ?>      
-<li class="var_nav">
-      <a href="ajoutbiens.php"><div class="link_bg"></div>
-      <div class="link_title">
-        <div class=icon> 
-          <i class="fa fa-cart-plus"></i>
-        </div>
-      <p>Ajouter un biens</p>
-      </div></a>
-  </li>
+
   <li class="var_nav">
       <a href="deconnexion.php"><div class="link_bg"></div>
       <div class="link_title">
