@@ -14,4 +14,3 @@
  		<title> Immo Lyon </title>
 	</head>
 <body>
-<img class="logo" src="Immologo.png">
