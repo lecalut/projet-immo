@@ -5,7 +5,7 @@
 ul
 {
 	display: -webkit-inline-box;
-margin:0px;
+margin:0px 0px 0px 284px;
 padding:0px;
 list-style-type:none;
 -webkit-backface-visibility: hidden; backface-visibility: hidden;  
@@ -340,9 +340,7 @@ ol li{
 /*Logo*/
 
 .logo{
-	margin-top: 25px;
-	margin-left: 25px;
-	margin-bottom: 45px;
+	margin: 25px 300px 45px 25px;
 }
 #image{
 	width: 300px;
