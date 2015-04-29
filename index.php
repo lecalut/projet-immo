@@ -77,7 +77,7 @@ include("header.php");
         <div class=icon> 
           <i class="fa fa-key"></i>
         </div>
-      <p>D&eacuteconnexion employ&eacute</p>
+      <p>D&eacuteconnexion</p>
       </div></a>
   </li>
   <?php
