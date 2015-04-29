@@ -80,7 +80,6 @@ include("header.php");
      </p></form></p>
  	</li>
  </div>
-  <a id="Accueil" href="index.php"><i class="fa fa-arrow-circle-left"></i></a>
 
 
 
@@ -117,4 +116,3 @@ $req->execute(array(
 
 
 
-  <a id="Accueil" href="index.php"><i class="fa fa-arrow-circle-left"></i></a>
